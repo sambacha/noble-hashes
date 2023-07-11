@@ -6,7 +6,7 @@
         "target": "es2020",
         "lib": ["es2020"], // Set explicitly to remove DOM
         "module": "commonjs",
-        "moduleResolution": "bundler",
+        "moduleResolution": "node",
         "allowSyntheticDefaultImports": false,
         "allowUnreachableCode": false,
         "esModuleInterop": false,
@@ -15,7 +15,7 @@
         "useUnknownInCatchVariables": true,
         "strictBindCallApply": true,
         "strictFunctionTypes": true,
-        "noUnusedParameters": true,
+//        "noUnusedParameters": true,
         "noImplicitReturns": true,
         "strictNullChecks": true,
         "sourceMap": true,
